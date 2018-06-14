@@ -10,4 +10,4 @@ title = "About"
 
 DevOps Newsletters of Note from around the web. Curated by [Chris Short](https://chrisshort.net/).
 
-[Pull Requests](https://github.com/chris-short/devopsnewsletter.com) are welcomed!
+[Pull Requests](https://github.com/chris-short/devopsnewsletters.com) are welcome!
