@@ -14,62 +14,72 @@ languagecode = "en"
 
 [[params.social]]
     name = "Devops Weekly"
+    description = "A weekly slice of devops news brought to you by Gareth Rushgrove."
     weight = 1
     url = "https://www.devopsweekly.com/"
 [[params.social]]
     name = "DevOps'ish"
+    description = "DevOps, Cloud Native, Open Source, and the 'ish in between."
     weight = 2
     url = "https://devopsish.com/"
 [[params.social]]
     name = "Last Week in AWS"
+    description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
     weight = 3
     url = "https://lastweekinaws.com/"
 [[params.social]]
     name = "Kube Weekly"
+    description = "Aggregating all interesting weekly news about Kubernetes in the form of a newsletter."
     weight = 4
     url = "http://kube.news/"
 [[params.social]]
     name = "The New Stack"
+    description = "A digest of the week's most important stories & analyses about the services and infrastructures that developers build and the cultural impact that has on the way we work and live."
     weight = 5
     url = "https://thenewstack.io/newsletter-archive"
 [[params.social]]
     name = "DevOps Dispatch"
+    description = "The DevOps Dispatch is a weekly curated publication full of articles and podcast episodes related to DevOps."
     weight = 6
     url = "https://devopsdispatch.com/"
 [[params.social]]
     name = "SRE Weekly"
+    description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
     weight = 7
     url = "https://sreweekly.com/"
 [[params.social]]
     name = "appops reloaded"
+    description = "Keep up to date with all things containers, Kubernetes, Docker, Go, Linux, devops, cloud native apps, CI/CD, microservices, AWS, Azure, GCP."
     weight = 8
     url = "https://tinyletter.com/mhausenblas"
 [[params.social]]
-    name = "O'Reilly Newsletters"
-    weight = 9
-    url = "https://www.oreilly.com/emails/newsletters/"
-[[params.social]]
     name = "Security Newsletter"
+    description = "Last week's news on infosecurity, digested to an easy format."
     weight = 10
     url = "https://securitynewsletter.co/"
 [[params.social]]
     name = "Monitoring Weekly"
+    description = "Curated monitoring articles to your inbox each week."
     weight = 11
     url = "https://weekly.monitoring.love/"
 [[params.social]]
     name = "Infrastructure as a Newsletter"
+    description = "Get Digital Ocean's roundup of sysadmin tutorials and open source happenings delivered to your inbox once you sign up and again every two weeks."
     weight = 12
     url = "https://www.digitalocean.com/community/newsletter"
 [[params.social]]
     name = "Opensource.com Highlights"
+    description = "Opensource.com is about sharing how the open source way can change our world in the same way the open source model has changed software."
     weight = 13
     url = "https://opensource.com/"
 [[params.social]]
-    name = "Systems Engineering and Operations Newsletter"
+    name = "O'Reilly Systems Engineering and Operations Newsletter"
+    description = "Stay informed. Receive weekly insight from industry insiders—plus exclusive content, offers, and more on the topic of systems engineering and operations."
     weight = 14
     url = "https://www.oreilly.com/webops-perf/newsletter.html"
 [[params.social]]
     name = "WebOps Weekly"
+    description = "A weekly newsletter on Web operations, infrastructure, performance, the backend, and tooling, from the browser down to the metal."
     weight = 100
     url = "https://webopsweekly.com/"
 
