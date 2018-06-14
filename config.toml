@@ -1,4 +1,4 @@
-baseURL = "http://devopsnewsletters.com"
+baseURL = "https://devopsnewsletters.com"
 title = "DevOps Newsletters"
 theme = "coder"
 languagecode = "en"
