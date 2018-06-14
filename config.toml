@@ -1,0 +1,79 @@
+baseURL = "http://devopsnewsletters.com"
+title = "DevOps Newsletters"
+theme = "coder"
+languagecode = "en"
+
+[params]
+    author = "DevOps Newsletters"
+    description = "DevOps Newsletters of Note"
+    keywords = "devops,cloud native,open source,newsletters"
+    info = "DevOps Newsletters of Note"
+
+    hideCredits = true
+    hideCopyright = true
+
+[[params.social]]
+    name = "Devops Weekly"
+    weight = 1
+    url = "https://www.devopsweekly.com/"
+[[params.social]]
+    name = "DevOps'ish"
+    weight = 2
+    url = "https://devopsish.com/"
+[[params.social]]
+    name = "Last Week in AWS"
+    weight = 3
+    url = "https://lastweekinaws.com/"
+[[params.social]]
+    name = "Kube Weekly"
+    weight = 4
+    url = "http://kube.news/"
+[[params.social]]
+    name = "The New Stack"
+    weight = 5
+    url = "https://thenewstack.io/newsletter-archive"
+[[params.social]]
+    name = "DevOps Dispatch"
+    weight = 6
+    url = "https://devopsdispatch.com/"
+[[params.social]]
+    name = "SRE Weekly"
+    weight = 7
+    url = "https://sreweekly.com/"
+[[params.social]]
+    name = "appops reloaded"
+    weight = 8
+    url = "https://tinyletter.com/mhausenblas"
+[[params.social]]
+    name = "O'Reilly Newsletters"
+    weight = 9
+    url = "https://www.oreilly.com/emails/newsletters/"
+[[params.social]]
+    name = "Security Newsletter"
+    weight = 10
+    url = "https://securitynewsletter.co/"
+[[params.social]]
+    name = "Monitoring Weekly"
+    weight = 11
+    url = "https://weekly.monitoring.love/"
+[[params.social]]
+    name = "Infrastructure as a Newsletter"
+    weight = 12
+    url = "https://www.digitalocean.com/community/newsletter"
+[[params.social]]
+    name = "Opensource.com Highlights"
+    weight = 13
+    url = "https://opensource.com/"
+[[params.social]]
+    name = "Systems Engineering and Operations Newsletter"
+    weight = 14
+    url = "https://www.oreilly.com/webops-perf/newsletter.html"
+[[params.social]]
+    name = "WebOps Weekly"
+    weight = 100
+    url = "https://webopsweekly.com/"
+
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
