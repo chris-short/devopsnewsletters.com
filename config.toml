@@ -5,7 +5,7 @@ languagecode = "en"
 
 [params]
     author = "DevOps Newsletters"
-    description = "DevOps Newsletters of Note"
+    description = "Continuous learning is a critical part of DevOps. Staying current is imperative. These are DevOps newsletters of note from several well regarded DevOps leaders."
     keywords = "devops,cloud native,open source,newsletters"
     info = "DevOps Newsletters of Note"
 
