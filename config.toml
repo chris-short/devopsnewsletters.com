@@ -100,3 +100,8 @@ languagecode = "en"
     description = "A weekly newsletter on Web operations, infrastructure, performance, the backend, and tooling, from the browser down to the metal."
     weight = 100
     url = "https://webopsweekly.com/"
+[[params.sites]]
+    name = "DevOpsLinks"
+    description = "DevOpsLinks is a weekly newsletter & a community of aspiring DevOps professionals and practicioners from all over the world."
+    weight = 101
+    url = "http://devopslinks.com/"    
