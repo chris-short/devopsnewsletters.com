@@ -19,3 +19,5 @@ DevOps Newsletters intends to be a one stop shop for the best DevOps content fro
 Curated by [Chris Short](https://chrisshort.net/).
 
 [Pull Requests](https://github.com/chris-short/devopsnewsletters.com) are welcome!
+
+[What is DevOps?](https://devopsish.com/what-is-devops/)
