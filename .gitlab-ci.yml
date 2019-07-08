@@ -1,0 +1,37 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build-production:
+  stage: build
+  environment:
+    name: production
+    url: https://${CI_PROJECT_NAME}
+  image: registry.gitlab.com/pages/hugo:latest
+  before_script:
+    - apk --no-cache update
+    - apk --no-cache add git
+    - rm -rf public || exit 0
+    - git submodule sync --recursive
+    - git submodule update --init --recursive
+  script:
+    - hugo --minify
+  only:
+    - master
+
+deploy-production:
+  stage: deploy
+  environment:
+    name: production
+    url: https://${CI_PROJECT_NAME}
+  image: quay.io/chrisshort/firebase:latest
+  before_script:
+    - curl -L -o firebase.json https://raw.githubusercontent.com/chris-short/firebase-configs/master/firebase.production.json
+    - curl -LO https://raw.githubusercontent.com/chris-short/firebase-configs/master/${CI_PROJECT_NAME}/production/.firebaserc
+  script:
+    - firebase deploy --only hosting --token ${FIREBASE_TOKEN}
+  only:
+    - master
