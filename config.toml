@@ -43,33 +43,23 @@ languagecode = "en"
 [[params.sites]]
     name = "Last Week in AWS"
     description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
-    weight = 3
+    weight = 4
     url = "https://lastweekinaws.com/"
 [[params.sites]]
-    name = "Kube Weekly"
-    description = "Aggregating all interesting weekly news about Kubernetes in the form of a newsletter."
-    weight = 4
-    url = "http://kube.news/"
+    name = "KubeWeekly"
+    description = "The weekly newsletters for all things Kubernetes."
+    weight = 3
+    url = "https://kubeweekly.io/"
 [[params.sites]]
     name = "The New Stack"
     description = "A digest of the week's most important stories & analyses about the services and infrastructures that developers build and the cultural impact that has on the way we work and live."
-    weight = 5
+    weight = 7
     url = "https://thenewstack.io/newsletter-archive"
-[[params.sites]]
-    name = "DevOps Dispatch"
-    description = "The DevOps Dispatch is a weekly curated publication full of articles and podcast episodes related to DevOps."
-    weight = 6
-    url = "https://devopsdispatch.com/"
 [[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
-    weight = 7
+    weight = 6
     url = "https://sreweekly.com/"
-[[params.sites]]
-    name = "appops reloaded"
-    description = "Keep up to date with all things containers, Kubernetes, Docker, Go, Linux, devops, cloud native apps, CI/CD, microservices, AWS, Azure, GCP."
-    weight = 8
-    url = "https://tinyletter.com/mhausenblas"
 [[params.sites]]
     name = "Security Newsletter"
     description = "Last week's news on infosecurity, digested to an easy format."
@@ -78,8 +68,8 @@ languagecode = "en"
 [[params.sites]]
     name = "Monitoring Weekly"
     description = "Curated monitoring articles to your inbox each week."
-    weight = 11
-    url = "https://weekly.monitoring.love/"
+    weight = 5
+    url = "https://monitoring.love/"
 [[params.sites]]
     name = "Infrastructure as a Newsletter"
     description = "Get Digital Ocean's roundup of sysadmin tutorials and open source happenings delivered to your inbox once you sign up and again every two weeks."
@@ -104,4 +94,4 @@ languagecode = "en"
     name = "DevOpsLinks"
     description = "DevOpsLinks is a weekly newsletter & a community of aspiring DevOps professionals and practicioners from all over the world."
     weight = 101
-    url = "http://devopslinks.com/"    
+    url = "http://devopslinks.com/"
