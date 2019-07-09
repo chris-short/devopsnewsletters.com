@@ -10,6 +10,10 @@ build-production:
   environment:
     name: production
     url: https://${CI_PROJECT_NAME}
+  artifacts:
+    paths:
+      - public
+    expire_in: 3d
   image: registry.gitlab.com/pages/hugo:latest
   before_script:
     - apk --no-cache update
