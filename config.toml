@@ -41,49 +41,49 @@ languagecode = "en"
     weight = 2
     url = "https://devopsish.com/"
 [[params.sites]]
-    name = "Last Week in AWS"
-    description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
-    weight = 4
-    url = "https://lastweekinaws.com/"
-[[params.sites]]
     name = "KubeWeekly"
     description = "The weekly newsletters for all things Kubernetes."
     weight = 3
     url = "https://kubeweekly.io/"
 [[params.sites]]
-    name = "The New Stack"
-    description = "A digest of the week's most important stories & analyses about the services and infrastructures that developers build and the cultural impact that has on the way we work and live."
-    weight = 7
-    url = "https://thenewstack.io/newsletter-archive"
-[[params.sites]]
-    name = "SRE Weekly"
-    description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
-    weight = 6
-    url = "https://sreweekly.com/"
-[[params.sites]]
-    name = "Security Newsletter"
-    description = "Last week's news on infosecurity, digested to an easy format."
-    weight = 10
-    url = "https://securitynewsletter.co/"
+    name = "Last Week in AWS"
+    description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
+    weight = 4
+    url = "https://lastweekinaws.com/"
 [[params.sites]]
     name = "Monitoring Weekly"
     description = "Curated monitoring articles to your inbox each week."
     weight = 5
     url = "https://monitoring.love/"
 [[params.sites]]
+    name = "SRE Weekly"
+    description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
+    weight = 6
+    url = "https://sreweekly.com/"
+[[params.sites]]
+    name = "The New Stack"
+    description = "A digest of the week's most important stories & analyses about the services and infrastructures that developers build and the cultural impact that has on the way we work and live."
+    weight = 7
+    url = "https://thenewstack.io/newsletter-archive"
+[[params.sites]]
+    name = "Security Newsletter"
+    description = "Last week's news on infosecurity, digested to an easy format."
+    weight = 10
+    url = "https://securitynewsletter.co/"
+[[params.sites]]
     name = "Infrastructure as a Newsletter"
     description = "Get Digital Ocean's roundup of sysadmin tutorials and open source happenings delivered to your inbox once you sign up and again every two weeks."
-    weight = 12
+    weight = 11
     url = "https://www.digitalocean.com/community/newsletter"
 [[params.sites]]
     name = "Opensource.com Highlights"
     description = "Opensource.com is about sharing how the open source way can change our world in the same way the open source model has changed software."
-    weight = 13
+    weight = 12
     url = "https://opensource.com/"
 [[params.sites]]
     name = "O'Reilly Systems Engineering and Operations Newsletter"
     description = "Stay informed. Receive weekly insight from industry insiders—plus exclusive content, offers, and more on the topic of systems engineering and operations."
-    weight = 14
+    weight = 13
     url = "https://www.oreilly.com/webops-perf/newsletter.html"
 [[params.sites]]
     name = "WebOps Weekly"
