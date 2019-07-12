@@ -19,8 +19,6 @@ build-production:
     - apk --no-cache update
     - apk --no-cache add git
     - rm -rf public || exit 0
-    - git submodule sync --recursive
-    - git submodule update --init --recursive
   script:
     - hugo --minify
   only:
@@ -34,7 +32,8 @@ deploy-production:
   image: quay.io/chrisshort/firebase:latest
   before_script:
     - curl -L -o firebase.json https://raw.githubusercontent.com/chris-short/firebase-configs/master/firebase.production.json
-    - curl -LO https://raw.githubusercontent.com/chris-short/firebase-configs/master/${CI_PROJECT_NAME}/production/.firebaserc
+    - curl -L -o .firebaserc https://raw.githubusercontent.com/chris-short/firebase-configs/master/firebaserc.json
+    - sed -i "s/REPLACEME/${FIREBASE_PROJECT}/g" .firebaserc
   script:
     - firebase deploy --only hosting --token ${FIREBASE_TOKEN}
   only:
