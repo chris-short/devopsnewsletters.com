@@ -14,7 +14,7 @@ DevOps Newsletters is an idea that sprung out of an opensource.com article: [16 
 
 > DevOps and systems folks have less of a need to keep up with the day-to-day doings of front-end work. The inverse applies to front-end folks. Both disciplines are equally difficult to master, and to excel in either one requires an enormous amount of self-discipline. Regardless of what discipline you follow, it helps to stay current. Being well-read means reading long-form pieces as well as short-form ones such as blogs, newsletters, and occasionally social media posts.
 
-DevOps Newsletters intends to be a one stop shop for the best DevOps content from around the world.
+DevOps Newsletters intends to be a one stop shop for the best DevOps news content from around the world.
 
 Curated by [Chris Short](https://chrisshort.net/).
 
