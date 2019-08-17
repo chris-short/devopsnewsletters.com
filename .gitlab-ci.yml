@@ -17,7 +17,7 @@ build-preview:
   image: monachus/hugo:latest
   before_script:
     - apt-get -y update
-    - rm -rf /var/lib/apt/lists/*
+    - rm -rf /var/lib/apt/lists/* || exit 0
     - rm -rf public || exit 0
   script:
     - hugo -v -DF
@@ -36,7 +36,7 @@ build-production:
   image: monachus/hugo:latest
   before_script:
     - apt-get -y update
-    - rm -rf /var/lib/apt/lists/*
+    - rm -rf /var/lib/apt/lists/* || exit 0
     - rm -rf public || exit 0
   script:
     - hugo -v --minify
