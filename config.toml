@@ -95,3 +95,8 @@ languagecode = "en"
     description = "DevOpsLinks is a weekly newsletter & a community of aspiring DevOps professionals and practicioners from all over the world."
     weight = 101
     url = "http://devopslinks.com/"
+[[params.sites]]
+    name = "This Week in DevOps"
+    description = "This Week in DevOps brings you the latest updates from AWS, Google Cloud, Azure and Hashicorp each monday. Just enough commentary to help you decide if you want to read the full article or announcement."
+    weight = 101
+    url = "https://thisweekindevops.com/"
