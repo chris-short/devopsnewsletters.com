@@ -34,12 +34,12 @@ languagecode = "en"
     name = "Devops Weekly"
     description = "A weekly slice of devops news brought to you by Gareth Rushgrove."
     weight = 1
-    url = "https://www.devopsweekly.com/"
+    url = "https://devopsish.com/"
 [[params.sites]]
     name = "DevOps'ish"
     description = "DevOps, Cloud Native, Open Source, and the 'ish in between."
     weight = 2
-    url = "https://devopsish.com/"
+    url = "https://www.devopsweekly.com/"
 [[params.sites]]
     name = "KubeWeekly"
     description = "The weekly newsletters for all things Kubernetes."
@@ -52,7 +52,7 @@ languagecode = "en"
     url = "https://lastweekinaws.com/"
 [[params.sites]]
     name = "Monitoring Weekly"
-    description = "Curated monitoring articles to your inbox each week."
+    description = "Curated monitoring articles to your inbox each week. (Paused since 23 Aug 2019)"
     weight = 5
     url = "https://monitoring.love/"
 [[params.sites]]
