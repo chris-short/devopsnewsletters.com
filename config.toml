@@ -86,10 +86,10 @@ languagecode = "en"
     weight = 13
     url = "https://www.oreilly.com/webops-perf/newsletter.html"
 [[params.sites]]
-    name = "WebOps Weekly"
-    description = "A weekly newsletter on Web operations, infrastructure, performance, the backend, and tooling, from the browser down to the metal."
+    name = "StatusCode Weekly"
+    description = "A weekly newsletter covering software development, Web operations, infrastructure, platforms, and performance, from browser down to the metal."
     weight = 100
-    url = "https://webopsweekly.com/"
+    url = "https://weekly.statuscode.com/"
 [[params.sites]]
     name = "DevOpsLinks"
     description = "DevOpsLinks is a weekly newsletter & a community of aspiring DevOps professionals and practicioners from all over the world."
