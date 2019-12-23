@@ -51,11 +51,6 @@ languagecode = "en"
     weight = 4
     url = "https://lastweekinaws.com/"
 [[params.sites]]
-    name = "Monitoring Weekly"
-    description = "Curated monitoring articles to your inbox each week."
-    weight = 5
-    url = "https://monitoring.love/"
-[[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
     weight = 6
