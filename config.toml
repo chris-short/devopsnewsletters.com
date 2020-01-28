@@ -86,6 +86,11 @@ languagecode = "en"
     weight = 100
     url = "https://weekly.statuscode.com/"
 [[params.sites]]
+    name = "Resilience Roundup"
+    description = "Each week I’ll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
+    weight = 100
+    url = "https://resilienceroundup.com/"
+[[params.sites]]
     name = "DevOpsLinks"
     description = "DevOpsLinks is a weekly newsletter & a community of aspiring DevOps professionals and practicioners from all over the world."
     weight = 101
