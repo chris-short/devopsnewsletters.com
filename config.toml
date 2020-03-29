@@ -61,11 +61,6 @@ languagecode = "en"
     weight = 7
     url = "https://thenewstack.io/newsletter-archive"
 [[params.sites]]
-    name = "Security Newsletter"
-    description = "Last week's news on infosecurity, digested to an easy format."
-    weight = 10
-    url = "https://securitynewsletter.co/"
-[[params.sites]]
     name = "Infrastructure as a Newsletter"
     description = "Get Digital Ocean's roundup of sysadmin tutorials and open source happenings delivered to your inbox once you sign up and again every two weeks."
     weight = 11
@@ -76,20 +71,10 @@ languagecode = "en"
     weight = 12
     url = "https://opensource.com/"
 [[params.sites]]
-    name = "O'Reilly Systems Engineering and Operations Newsletter"
-    description = "Stay informed. Receive weekly insight from industry insiders—plus exclusive content, offers, and more on the topic of systems engineering and operations."
-    weight = 13
-    url = "https://www.oreilly.com/webops-perf/newsletter.html"
-[[params.sites]]
     name = "StatusCode Weekly"
     description = "A weekly newsletter covering software development, Web operations, infrastructure, platforms, and performance, from browser down to the metal."
     weight = 100
     url = "https://weekly.statuscode.com/"
-[[params.sites]]
-    name = "DevOpsLinks"
-    description = "DevOpsLinks is a weekly newsletter & a community of aspiring DevOps professionals and practicioners from all over the world."
-    weight = 101
-    url = "http://devopslinks.com/"
 [[params.sites]]
     name = "This Week in DevOps"
     description = "This Week in DevOps brings you the latest updates from AWS, Google Cloud, Azure and Hashicorp each monday. Just enough commentary to help you decide if you want to read the full article or announcement."
