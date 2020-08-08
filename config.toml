@@ -51,6 +51,11 @@ languagecode = "en"
     weight = 4
     url = "https://lastweekinaws.com/"
 [[params.sites]]
+    name = "cron.weekly"
+    description = "cron.weekly is a newsletter about Linux, open source & webdevelopment. It features new open source projects, practical guides & tutorials and news."
+    weight = 5
+    url = "https://ma.ttias.be/cronweekly/"
+[[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
     weight = 6
@@ -68,8 +73,13 @@ languagecode = "en"
 [[params.sites]]
     name = "Opensource.com Highlights"
     description = "Opensource.com is about sharing how the open source way can change our world in the same way the open source model has changed software."
-    weight = 12
+    weight = 9
     url = "https://opensource.com/"
+[[params.sites]]
+    name = "Enable Sysadmin"
+    description = "Enable Sysadmin is a community publication that publishes guides, how-tos, tutorials, explainers, tips and tricks, and more."
+    weight = 8
+    url = "https://www.redhat.com/sysadmin/email"
 [[params.sites]]
     name = "StatusCode Weekly"
     description = "A weekly newsletter covering software development, Web operations, infrastructure, platforms, and performance, from browser down to the metal."
@@ -81,7 +91,8 @@ languagecode = "en"
     weight = 101
     url = "https://thisweekindevops.com/"
 [[params.sites]]
-    name = "cron.weekly"
-    description = "cron.weekly is a newsletter about Linux, open source & webdevelopment. It features new open source projects, practical guides & tutorials and news."
-    weight = 102
-    url = "https://ma.ttias.be/cronweekly/"
+    name = "Kubernetes News"
+    description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
+    weight = 999
+    url = "https://kubenews.io/"
+
