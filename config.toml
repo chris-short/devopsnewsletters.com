@@ -91,6 +91,11 @@ languagecode = "en"
     weight = 101
     url = "https://thisweekindevops.com/"
 [[params.sites]]
+    name = "DevOps Industry Updates"
+    description = "The latest and greatest developments in DevOps, Kubernetes, the public cloud (AWS, GCP, Azure), Linux, Security and Programming with a penchant for high-quality content."
+    weight = 110
+    url = "https://corey.tech/"
+[[params.sites]]
     name = "Kubernetes News"
     description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
     weight = 999
