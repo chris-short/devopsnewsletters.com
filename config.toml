@@ -90,6 +90,11 @@ languagecode = "en"
     weight = 101
     url = "https://thisweekindevops.com/"
 [[params.sites]]
+    name = "0800-DEVOPS"
+    description = "0800-DEVOPS is a monthly digest of interesting ideas from the world of DevOps, technical practices and increased productivity featuring interviews with inspiring people from DevOps world."
+    weight = 103
+    url = "https://croz.net/0800-devops/"
+[[params.sites]]
     name = "DevOps Industry Updates"
     description = "The latest and greatest developments in DevOps, Kubernetes, the public cloud (AWS, GCP, Azure), Linux, Security and Programming with a penchant for high-quality content."
     weight = 110
