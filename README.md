@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0cc8e8ff-7119-4b66-98d0-8fe3c36e0acd/deploy-status)](https://app.netlify.com/sites/devopsnewsletters/deploys)
+
 # devopsnewsletter.com
 
 [DevOps Newsletters](https://devopsnewsletters.com) of Note from around the web. Curated by [Chris Short](https://chrisshort.net).

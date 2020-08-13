@@ -29,7 +29,6 @@ languagecode = "en"
     name = "LinkedIn"
     weight = 3
     url = "https://linkedin.com/in/thechrisshort/"
-
 [[params.sites]]
     name = "Devops Weekly"
     description = "A weekly slice of devops news brought to you by Gareth Rushgrove."
@@ -51,6 +50,11 @@ languagecode = "en"
     weight = 4
     url = "https://lastweekinaws.com/"
 [[params.sites]]
+    name = "cron.weekly"
+    description = "cron.weekly is a newsletter about Linux, open source & webdevelopment. It features new open source projects, practical guides & tutorials and news."
+    weight = 5
+    url = "https://ma.ttias.be/cronweekly/"
+[[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
     weight = 6
@@ -61,11 +65,6 @@ languagecode = "en"
     weight = 7
     url = "https://thenewstack.io/newsletter-archive"
 [[params.sites]]
-    name = "Security Newsletter"
-    description = "Last week's news on infosecurity, digested to an easy format."
-    weight = 10
-    url = "https://securitynewsletter.co/"
-[[params.sites]]
     name = "Infrastructure as a Newsletter"
     description = "Get Digital Ocean's roundup of sysadmin tutorials and open source happenings delivered to your inbox once you sign up and again every two weeks."
     weight = 11
@@ -73,13 +72,13 @@ languagecode = "en"
 [[params.sites]]
     name = "Opensource.com Highlights"
     description = "Opensource.com is about sharing how the open source way can change our world in the same way the open source model has changed software."
-    weight = 12
+    weight = 9
     url = "https://opensource.com/"
 [[params.sites]]
-    name = "O'Reilly Systems Engineering and Operations Newsletter"
-    description = "Stay informed. Receive weekly insight from industry insiders—plus exclusive content, offers, and more on the topic of systems engineering and operations."
-    weight = 13
-    url = "https://www.oreilly.com/webops-perf/newsletter.html"
+    name = "Enable Sysadmin"
+    description = "Enable Sysadmin is a community publication that publishes guides, how-tos, tutorials, explainers, tips and tricks, and more."
+    weight = 8
+    url = "https://www.redhat.com/sysadmin/email"
 [[params.sites]]
     name = "StatusCode Weekly"
     description = "A weekly newsletter covering software development, Web operations, infrastructure, platforms, and performance, from browser down to the metal."
@@ -88,20 +87,25 @@ languagecode = "en"
 [[params.sites]]
     name = "Resilience Roundup"
     description = "Each week I’ll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
-    weight = 100
+    weight = 102
     url = "https://resilienceroundup.com/"
 [[params.sites]]
-    name = "DevOpsLinks"
-    description = "DevOpsLinks is a weekly newsletter & a community of aspiring DevOps professionals and practicioners from all over the world."
-    weight = 101
-    url = "http://devopslinks.com/"
+    name = "0800-DEVOPS"
+    description = "0800-DEVOPS is a monthly digest of interesting ideas from the world of DevOps, technical practices and increased productivity featuring interviews with inspiring people from DevOps world."
+    weight = 103
+    url = "https://croz.net/0800-devops/"
 [[params.sites]]
-    name = "This Week in DevOps"
-    description = "This Week in DevOps brings you the latest updates from AWS, Google Cloud, Azure and Hashicorp each monday. Just enough commentary to help you decide if you want to read the full article or announcement."
-    weight = 101
-    url = "https://thisweekindevops.com/"
+    name = "DevOps Industry Updates"
+    description = "The latest and greatest developments in DevOps, Kubernetes, the public cloud (AWS, GCP, Azure), Linux, Security and Programming with a penchant for high-quality content."
+    weight = 110
+    url = "https://corey.tech/"
 [[params.sites]]
-    name = "cron.weekly"
-    description = "cron.weekly is a newsletter about Linux, open source & webdevelopment. It features new open source projects, practical guides & tutorials and news."
-    weight = 102
-    url = "https://ma.ttias.be/cronweekly/"
+    name = "DevOps README"
+    description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.xyz"
+    weight = 998
+    url = "https://devopsreadme.xyz/"    
+[[params.sites]]
+    name = "Kubernetes News"
+    description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
+    weight = 999
+    url = "https://kubenews.io/"
