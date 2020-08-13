@@ -101,7 +101,7 @@ languagecode = "en"
     url = "https://corey.tech/"
 [[params.sites]]
     name = "DevOps README"
-    description = "Looking for a great list of covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.xyz."
+    description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than <devopsreadme.xyz>."
     weight = 998
     url = "https://devopsreadme.xyz/"    
 [[params.sites]]
