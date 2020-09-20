@@ -29,6 +29,10 @@ languagecode = "en"
     name = "LinkedIn"
     weight = 3
     url = "https://linkedin.com/in/thechrisshort/"
+[[params.social]]
+    name = "Curated by Chris Short"
+    weight = 4
+    url = "https://advisedbyshort.com/"
 [[params.sites]]
     name = "Devops Weekly"
     description = "A weekly slice of devops news brought to you by Gareth Rushgrove."
