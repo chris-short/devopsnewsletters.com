@@ -16,7 +16,7 @@ DevOps Newsletters is an idea that sprung out of an opensource.com article: [16 
 
 DevOps Newsletters intends to be a one stop shop for the best DevOps news content from around the world.
 
-Curated by [Chris Short](https://chrisshort.net/).
+Curated by [Chris Short](https://advisedbyshort.com/).
 
 [Pull Requests](https://github.com/chris-short/devopsnewsletters.com) are welcome!
 
