@@ -107,6 +107,11 @@ languagecode = "en"
 [[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.xyz"
+    weight = 997
+    url = "https://devopsreadme.xyz/"
+[[params.sites]]
+    name = "Kubernetes README"
+    description = "Looking for a great list of books 📚 covering Kubernetes? Look no futher than kubernetesreadme.com"
     weight = 998
     url = "https://devopsreadme.xyz/"    
 [[params.sites]]
