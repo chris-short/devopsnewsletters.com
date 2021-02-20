@@ -113,9 +113,9 @@ languagecode = "en"
     name = "Kubernetes README"
     description = "Looking for a great list of books 📚 covering Kubernetes? Look no futher than kubernetesreadme.com"
     weight = 998
-    url = "https://devopsreadme.xyz/"    
+    url = "https://kubernetesreadme.com/"
 [[params.sites]]
     name = "Kubernetes News"
     description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
     weight = 999
-    url = "https://kubenews.io/"
+    url = "https://kubenews.net/"
