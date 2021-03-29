@@ -36,7 +36,7 @@ languagecode = "en"
     url = "https://www.devopsweekly.com/"
 [[params.sites]]
     name = "DevOps'ish"
-    description = "DevOps, Cloud Native, Open Source, and the 'ish in between."
+    description = "DevOps, Cloud Native, Hybrid Cloud, Open Source, industry news, culture, and the ‘ish between."
     weight = 2
     url = "https://devopsish.com/"
 [[params.sites]]
