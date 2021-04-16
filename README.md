@@ -6,11 +6,16 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fdevopsnewsletters.com)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0cc8e8ff-7119-4b66-98d0-8fe3c36e0acd/deploy-status)](https://app.netlify.com/sites/devopsnewsletters/deploys)
 
-# devopsnewsletter.com
+# devopsnewsletters.com
 
-[DevOps Newsletters](https://devopsnewsletters.com) of Note from around the web. Curated by [Chris Short](https://linktr.ee/TheChrisShort).
+[devopsnewsletters.com](https://devopsnewsletters.com) — Continuous learning is a critical part of DevOps. Staying current is imperative. These are DevOps newsletters of note from several well regarded DevOps leaders.
 
-## Pull Requests are welcome
+## Contributing
 
-Contributing to [devopsnewsletters.com](https://devopsnewsletters.com) is done by editing the [config.toml](./config.toml) file. Submit a Pull Request with your changes. Then wait for a review or merge. Done!
+Edit `content/post/devopsnewsletters/index.md` with your book, workshop, tutorial, etc.
 
+See <CONTRIBUTING.md>
+
+### Copyright
+
+[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/)

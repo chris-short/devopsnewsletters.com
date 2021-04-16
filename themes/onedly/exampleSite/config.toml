@@ -1,6 +1,6 @@
-baseurl = "https://devopsnewsletters.com/"
+baseurl = "https://example.com/"
 languageCode = "en-us"
-title = "DevOps Newsletters"
+title = "OneDly Project"
 theme = "onedly"
 
 #
@@ -8,10 +8,10 @@ theme = "onedly"
 #
 [params]
     # project specific params
-    description = "DevOps Newsletters"
-    author_url = "https://linktr.ee/TheChrisShort"
-    author_name = "Chris Short"
-    project_url = "https://github.com/chris-short/devopsnewsletters.com"
+    description = "One-Day-Only (OneDly) project documentation."
+    author_url = "//cdeck3r.com"
+    author_name = "cdeck3r"
+    project_url = "//github.com/cdeck3r/OneDly-Theme"
 
     # optionally specify where the content is
     # mainSections = ["post"] 
@@ -20,11 +20,11 @@ theme = "onedly"
     socialShare          = true
     # Sets specific share to appear on posts (default behavior is to appear)
     socialShareTwitter   = true
-    socialShareGoogleplus = false
+    socialShareGoogleplus = true
     socialShareFacebook  = true
     socialShareReddit    = true
     socialShareLinkedin  = true
-    socialShareStumbleupon = false
+    socialShareStumbleupon = true
     socialSharePinterest = true
     socialShareEmail = true
 
@@ -48,7 +48,7 @@ theme = "onedly"
 #
 [social]
     # Coding Communities
-    github           = "chris-short"
+    github           = "cdeck3r/OneDly-Theme"
     gitlab           = ""
     stackoverflow    = "" # User Number
     bitbucket        = ""
@@ -63,7 +63,7 @@ theme = "onedly"
     wordpress        = ""
     medium           = ""
     # Professional/Business Oriented Communities
-    linkedin         = "thechrisshort"
+    linkedin         = ""
     linkedin_company = ""
     foursquare       = ""
     xing             = ""
@@ -71,9 +71,9 @@ theme = "onedly"
     # Social Networks
     facebook         = ""
     googleplus       = ""
-    reddit           = "oaf357"
+    reddit           = ""
     quora            = ""
-    youtube          = ""
+    youtube          = "channel/UCZ5wNVV_E6AA3L3C-mvqwSA"
     vimeo            = ""
     whatsapp         = "" # WhatsApp Number
     # WeChat and QQ need testing.
@@ -81,17 +81,17 @@ theme = "onedly"
     qq             = "" # User ID Number
     instagram        = ""
     tumblr           = ""
-    twitter          = "ChrisShort"
+    twitter          = "cdeck3r"
     skype            = ""
     snapchat         = ""
     pinterest        = ""
-    telegram         = "ChrisShort"
+    telegram         = ""
     vine             = ""
     googlescholar    = ""
     orcid            = ""
     researchgate     = ""
     # Email
-    email = "chris@chrisshort.net"
+    email = "info@cdeck3r.com"
 
 #
 # Adjust privacy settings
@@ -102,7 +102,7 @@ theme = "onedly"
       disable = true
 
     [privacy.googleAnalytics]
-      disable = false
+      disable = true
       anonymizeIP = true
       respectDoNotTrack = true
       useSessionStorage = true

@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://devopsnewsletters.com/sitemap.xml
