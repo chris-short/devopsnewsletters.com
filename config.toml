@@ -18,7 +18,7 @@ languagecode = "en"
     url = "/about/"
 
 [[params.social]]
-    name = "Github"
+    name = "GitHub"
     weight = 1
     url = "https://github.com/chris-short/devopsnewsletters.com"
 [[params.social]]
@@ -29,6 +29,9 @@ languagecode = "en"
     name = "LinkedIn"
     weight = 3
     url = "https://linkedin.com/in/thechrisshort/"
+[[params.social]]
+    name = "Curated by Chris Short"
+    url = "https://linktr.ee/TheChrisShort"
 [[params.sites]]
     name = "Devops Weekly"
     description = "A weekly slice of devops news brought to you by Gareth Rushgrove."
@@ -43,21 +46,16 @@ languagecode = "en"
     name = "KubeWeekly"
     description = "The weekly newsletters for all things Kubernetes."
     weight = 3
-    url = "https://kubeweekly.io/"
+    url = "https://www.cncf.io/kubeweekly/"
 [[params.sites]]
     name = "Last Week in AWS"
     description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
     weight = 4
     url = "https://lastweekinaws.com/?grsf=7h1z3x"
 [[params.sites]]
-    name = "cron.weekly"
-    description = "cron.weekly is a newsletter about Linux, open source & webdevelopment. It features new open source projects, practical guides & tutorials and news."
-    weight = 5
-    url = "https://ma.ttias.be/cronweekly/"
-[[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
-    weight = 6
+    weight = 5
     url = "https://sreweekly.com/"
 [[params.sites]]
     name = "The New Stack"
@@ -72,23 +70,18 @@ languagecode = "en"
 [[params.sites]]
     name = "Opensource.com Highlights"
     description = "Opensource.com is about sharing how the open source way can change our world in the same way the open source model has changed software."
-    weight = 9
+    weight = 8
     url = "https://opensource.com/"
 [[params.sites]]
     name = "Enable Sysadmin"
     description = "Enable Sysadmin is a community publication that publishes guides, how-tos, tutorials, explainers, tips and tricks, and more."
-    weight = 8
+    weight = 9
     url = "https://www.redhat.com/sysadmin/email"
 [[params.sites]]
     name = "StatusCode Weekly"
     description = "A weekly newsletter covering software development, Web operations, infrastructure, platforms, and performance, from browser down to the metal."
     weight = 100
     url = "https://weekly.statuscode.com/"
-[[params.sites]]
-    name = "This Week in DevOps"
-    description = "This Week in DevOps brings you the latest updates from AWS, Google Cloud, Azure and Hashicorp each monday. Just enough commentary to help you decide if you want to read the full article or announcement."
-    weight = 101
-    url = "https://thisweekindevops.com/"
 [[params.sites]]
     name = "Resilience Roundup"
     description = "Each week I’ll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
