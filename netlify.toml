@@ -59,7 +59,7 @@ HUGO_ENABLEGITINFO = "true"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
-    Permissions-Policy = "geolocation 'none'; midi 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; fullscreen 'none'; payment 'none'"
+    Permissions-Policy = 'fullscreen=(self "https://devopsish.com"), geolocation=(), camera=(), microphone=()'
     # Cross-Origin-Embedder-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
     # Cross-Origin-Opener-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
     # Content-Security-Policy-Report-Only = "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://chrisshort.report-uri.com/r/d/csp/wizard"
