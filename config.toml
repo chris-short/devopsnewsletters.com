@@ -48,7 +48,7 @@ languagecode = "en"
     name = "Last Week in AWS"
     description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
     weight = 4
-    url = "https://lastweekinaws.com/?grsf=7h1z3x"
+    url = "https://ref.lastweekinaws.com/7h1z3x"
 [[params.sites]]
     name = "cron.weekly"
     description = "cron.weekly is a newsletter about Linux, open source & webdevelopment. It features new open source projects, practical guides & tutorials and news."
