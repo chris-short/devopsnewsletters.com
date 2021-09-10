@@ -8,14 +8,14 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "git submodule update --rebase --remote && hugo --gc --minify --enableGitInfo"
+command = "git submodule update --rebase --remote && go install --tags extended && hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
 HUGO_VERSION = "0.88.1"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "git submodule update --rebase --remote && hugo -v --gc -DF"
+command = "git submodule update --rebase --remote && go install --tags extended && hugo -v --gc -DF"
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.88.1"
 # Skip all post processing in deploy previews,
@@ -24,7 +24,7 @@ HUGO_VERSION = "0.88.1"
   skip_processing = true
 
 [context.branch-deploy]
-command = "git submodule update --rebase --remote && hugo -v --gc -DF"
+command = "git submodule update --rebase --remote && go install --tags extended && hugo -v --gc -DF"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.88.1"
 
@@ -59,7 +59,7 @@ HUGO_ENABLEGITINFO = "true"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
-    Permissions-Policy = 'fullscreen=(self "https://devopsish.com"), geolocation=(), camera=(), microphone=()'
+    # Permissions-Policy = 'fullscreen=(self "https://devopsish.com"), geolocation=(), camera=(), microphone=()'
     # Cross-Origin-Embedder-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
     # Cross-Origin-Opener-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
     # Content-Security-Policy-Report-Only = "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://chrisshort.report-uri.com/r/d/csp/wizard"
