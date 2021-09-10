@@ -1,0 +1,67 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.88.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "git submodule update --rebase --remote && hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.88.1"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "git submodule update --rebase --remote && hugo -v --gc -DF"
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.88.1"
+# Skip all post processing in deploy previews,
+# ignoring any other settings
+[context.deploy-preview.processing]
+  skip_processing = true
+
+[context.branch-deploy]
+command = "git submodule update --rebase --remote && hugo -v --gc -DF"
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.88.1"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
+
+# https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
+# If skip_processing = true, all other settings are ignored
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = false
+[build.processing.images]
+  compress = true
+
+[[redirects]]
+  from = "https://devopsnewsletters.netlify.app/*"
+  to = "https://devopsnewsletters.com/:splat"
+  status = 301
+  force = true
+
+  [[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    Permissions-Policy = 'fullscreen=(self "https://devopsish.com"), geolocation=(), camera=(), microphone=()'
+    # Cross-Origin-Embedder-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
+    # Cross-Origin-Opener-Policy-Report-Only = "report-to=https://chrisshort.report-uri.com/r/d/csp/wizard"
+    # Content-Security-Policy-Report-Only = "default-src 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://chrisshort.report-uri.com/r/d/csp/wizard"
+    # Report-To = '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://chrisshort.report-uri.com/a/d/g"}],"include_subdomains":true}'
+    NEL = '{"report_to":"default","max_age":31536000,"include_subdomains":true}'
