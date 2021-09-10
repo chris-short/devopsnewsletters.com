@@ -1,0 +1,111 @@
+baseURL = "https://devopsnewsletters.com"
+title = "DevOps Newsletters"
+theme = "coder"
+languagecode = "en"
+
+[params]
+    author = "DevOps Newsletters"
+    description = "Continuous learning is a critical part of DevOps. Staying current is imperative. These are DevOps newsletters of note from several well regarded DevOps leaders."
+    keywords = "devops,cloud native,open source,newsletters"
+    info = "DevOps Newsletters of Note"
+
+    hideCredits = true
+    hideCopyright = true
+
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/chris-short/devopsnewsletters.com"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/ChrisShort"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://linkedin.com/in/thechrisshort/"
+[[params.sites]]
+    name = "Devops Weekly"
+    description = "A weekly slice of devops news brought to you by Gareth Rushgrove."
+    weight = 1
+    url = "https://www.devopsweekly.com/"
+[[params.sites]]
+    name = "DevOps'ish"
+    description = "DevOps, Cloud Native, Hybrid Cloud, Open Source, industry news, culture, and the ‘ish between."
+    weight = 2
+    url = "https://devopsish.com/"
+[[params.sites]]
+    name = "KubeWeekly"
+    description = "The weekly newsletters for all things Kubernetes."
+    weight = 3
+    url = "https://kubeweekly.io/"
+[[params.sites]]
+    name = "Last Week in AWS"
+    description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
+    weight = 4
+    url = "https://ref.lastweekinaws.com/7h1z3x"
+[[params.sites]]
+    name = "Protocol Source Code"
+    description = "You’re busy. Let us help you. What matters in tech, in your inbox every morning."
+    weight = 5
+    url = "https://sparklp.co/41a41889"
+[[params.sites]]
+    name = "SRE Weekly"
+    description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
+    weight = 6
+    url = "https://sreweekly.com/"
+[[params.sites]]
+    name = "The New Stack"
+    description = "A digest of the week's most important stories & analyses about the services and infrastructures that developers build and the cultural impact that has on the way we work and live."
+    weight = 7
+    url = "https://thenewstack.io/newsletter-archive"
+[[params.sites]]
+    name = "Infrastructure as a Newsletter"
+    description = "Get Digital Ocean's roundup of sysadmin tutorials and open source happenings delivered to your inbox once you sign up and again every two weeks."
+    weight = 11
+    url = "https://www.digitalocean.com/community/newsletter"
+[[params.sites]]
+    name = "Opensource.com Highlights"
+    description = "Opensource.com is about sharing how the open source way can change our world in the same way the open source model has changed software."
+    weight = 9
+    url = "https://opensource.com/"
+[[params.sites]]
+    name = "Enable Sysadmin"
+    description = "Enable Sysadmin is a community publication that publishes guides, how-tos, tutorials, explainers, tips and tricks, and more."
+    weight = 8
+    url = "https://www.redhat.com/sysadmin/email"
+[[params.sites]]
+    name = "Resilience Roundup"
+    description = "Each week I’ll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
+    weight = 102
+    url = "https://resilienceroundup.com/"
+[[params.sites]]
+    name = "0800-DEVOPS"
+    description = "0800-DEVOPS is a monthly digest of interesting ideas from the world of DevOps, technical practices and increased productivity featuring interviews with inspiring people from DevOps world."
+    weight = 103
+    url = "https://croz.net/0800-devops/"
+[[params.sites]]
+    name = "DevOps Industry Updates"
+    description = "The latest and greatest developments in DevOps, Kubernetes, the public cloud (AWS, GCP, Azure), Linux, Security and Programming with a penchant for high-quality content."
+    weight = 110
+    url = "https://corey.tech/"
+[[params.sites]]
+    name = "DevOps README"
+    description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.xyz"
+    weight = 997
+    url = "https://devopsreadme.xyz/"
+[[params.sites]]
+    name = "Kubernetes README"
+    description = "Looking for a great list of books 📚 covering Kubernetes? Look no futher than kubernetesreadme.com"
+    weight = 998
+    url = "https://kubernetesreadme.com/"
+[[params.sites]]
+    name = "Kubernetes News"
+    description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
+    weight = 999
+    url = "https://kubenews.net/"
