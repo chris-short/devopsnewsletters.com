@@ -3,6 +3,10 @@ title = "DevOps Newsletters"
 theme = ["github.com/luizdepra/hugo-coder"]
 languagecode = "en"
 
+[module]
+[[module.imports]]
+  path = 'github.com/luizdepra/hugo-coder'
+
 [params]
     author = "DevOps Newsletters"
     description = "Continuous learning is a critical part of DevOps. Staying current is imperative. These are DevOps newsletters of note from several well regarded DevOps leaders."
