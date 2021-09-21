@@ -1,6 +1,6 @@
 baseURL = "https://devopsnewsletters.com"
 title = "DevOps Newsletters"
-theme = "coder"
+theme = ["github.com/luizdepra/hugo-coder"]
 languagecode = "en"
 
 [params]
