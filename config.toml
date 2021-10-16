@@ -99,6 +99,11 @@ languagecode = "en"
     weight = 110
     url = "https://corey.tech/"
 [[params.sites]]
+    name = "123dev"
+    description = "Weekly newsletter for developers and operators that contains 1 GIF, 2 comments, and 3 links with useful articles, tools, and services."
+    weight = 120
+    url = "https://123dev.email"
+[[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.xyz"
     weight = 997
