@@ -74,16 +74,6 @@ languagecode = "en"
     weight = 11
     url = "https://www.digitalocean.com/community/newsletter"
 [[params.sites]]
-    name = "Opensource.com Highlights"
-    description = "Opensource.com is about sharing how the open source way can change our world in the same way the open source model has changed software."
-    weight = 9
-    url = "https://opensource.com/"
-[[params.sites]]
-    name = "Enable Sysadmin"
-    description = "Enable Sysadmin is a community publication that publishes guides, how-tos, tutorials, explainers, tips and tricks, and more."
-    weight = 8
-    url = "https://www.redhat.com/sysadmin/email"
-[[params.sites]]
     name = "Resilience Roundup"
     description = "Each week I’ll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
     weight = 102
