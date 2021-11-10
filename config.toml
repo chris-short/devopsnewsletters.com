@@ -108,3 +108,8 @@ languagecode = "en"
     description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
     weight = 999
     url = "https://kubenews.net/"
+[[params.sites]]
+    name = "o11y.news."
+    description = "The observability (o11y) newsletter covers topics including but not limited to OpenTelemetry, Prometheus, Grafana, FluentBit, and managed offerings."
+    weight = 999
+    url = "https://o11y.news/"
