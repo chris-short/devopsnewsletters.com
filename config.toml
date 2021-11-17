@@ -99,6 +99,11 @@ languagecode = "en"
     weight = 120
     url = "https://123dev.email"
 [[params.sites]]
+    name = "Top Stories from the Microsoft DevOps Community"
+    description = "Every Friday get an update on posts from around the Microsoft DevOps community."
+    weight = 121
+    url = "https://www.getrevue.co/profile/jaydestro?via=twitter-profile-webview"
+[[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.xyz"
     weight = 997
