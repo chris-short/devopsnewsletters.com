@@ -44,29 +44,34 @@ languagecode = "en"
     weight = 2
     url = "https://devopsish.com/"
 [[params.sites]]
+    name = "EKS News"
+    description = "EKS News aims to be to go to newsletter for all things AWS EKS, adjacent AWS services, Kubernetes, and Cloud Native"
+    weight = 3
+    url = "https://eks.news/"
+[[params.sites]]
     name = "KubeWeekly"
     description = "The weekly newsletters for all things Kubernetes."
-    weight = 3
+    weight = 4
     url = "https://kubeweekly.io/"
 [[params.sites]]
     name = "Last Week in AWS"
     description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
-    weight = 4
+    weight = 5
     url = "https://ref.lastweekinaws.com/7h1z3x"
 [[params.sites]]
     name = "Protocol Source Code"
     description = "You’re busy. Let us help you. What matters in tech, in your inbox every morning."
-    weight = 5
+    weight = 6
     url = "https://sparklp.co/41a41889"
 [[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
-    weight = 6
+    weight = 7
     url = "https://sreweekly.com/"
 [[params.sites]]
     name = "o11y.news."
     description = "The observability (o11y) newsletter covers topics including but not limited to OpenTelemetry, Prometheus, Grafana, FluentBit, and managed offerings."
-    weight = 7
+    weight = 8
     url = "https://o11y.news/"
 [[params.sites]]
     name = "The New Stack"
