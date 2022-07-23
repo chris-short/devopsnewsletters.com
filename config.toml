@@ -60,7 +60,7 @@ languagecode = "en"
     url = "https://ref.lastweekinaws.com/7h1z3x"
 [[params.sites]]
     name = "Protocol Source Code"
-    description = "You’re busy. Let us help you. What matters in tech, in your inbox every morning."
+    description = "You're busy. Let us help you. What matters in tech, in your inbox every morning."
     weight = 6
     url = "https://sparklp.co/41a41889"
 [[params.sites]]
@@ -85,7 +85,7 @@ languagecode = "en"
     url = "https://www.digitalocean.com/community/newsletter"
 [[params.sites]]
     name = "Resilience Roundup"
-    description = "Each week I’ll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
+    description = "Each week I'll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
     weight = 102
     url = "https://resilienceroundup.com/"
 [[params.sites]]
