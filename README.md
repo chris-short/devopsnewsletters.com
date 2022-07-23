@@ -4,7 +4,6 @@
 ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fdevopsnewsletters.com)
 ![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/devopsnewsletters.com?publish)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fdevopsnewsletters.com)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0cc8e8ff-7119-4b66-98d0-8fe3c36e0acd/deploy-status)](https://app.netlify.com/sites/devopsnewsletters/deploys)
 
 # devopsnewsletter.com
 
