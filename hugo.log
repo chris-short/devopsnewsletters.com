@@ -1,0 +1,25 @@
+INFO 2022/07/23 14:20:28 syncing static files to /
+LOG:   2022/07/23 14:20:28 
+Template Metrics:
+
+LOG:   2022/07/23 14:20:28      cumulative       average       maximum      cache  percent  cached  total  
+       duration      duration      duration  potential   cached   count  count  template
+     ----------      --------      --------  ---------  -------  ------  -----  --------
+   153.444911ms   76.722455ms   81.688811ms          0        0       0      2  _default/terms.html
+    85.420985ms   85.420985ms   85.420985ms          0        0       0      1  _default/single.html
+    76.618906ms   76.618906ms   76.618906ms          0        0       0      1  index.html
+     1.470521ms     294.104µs     429.742µs        100        0       0      5  partials/header.html
+     1.203364ms    1.203364ms    1.203364ms          0        0       0      1  404.html
+      732.902µs      146.58µs     364.826µs        100        0       0      5  partials/footer.html
+      708.025µs     236.008µs      377.36µs          0        0       0      3  _internal/_default/rss.xml
+      682.685µs     136.537µs     235.223µs        100        0       0      5  partials/float.html
+      452.785µs     452.785µs     452.785µs        100        0       0      1  partials/home.html
+      393.724µs     196.862µs     216.374µs         95        0       0      2  partials/terms.html
+      293.755µs     293.755µs     293.755µs          0        0       0      1  _internal/_default/sitemap.xml
+      195.495µs     195.495µs     195.495µs        100        0       0      1  partials/404.html
+      177.995µs     177.995µs     177.995µs        100        0       0      1  partials/posts/math.html
+        98.51µs       98.51µs       98.51µs        100        0       0      1  partials/page.html
+        5.614µs       5.614µs       5.614µs          0        0       0      1  scss/coder.scss
+
+LOG:   2022/07/23 14:20:28 Built in 114 ms
+LOG:   2022/07/23 14:20:28 Watching for config changes in /home/cbshort/repo/devopsnewsletters.com/config.toml, /home/cbshort/repo/devopsnewsletters.com/go.mod
