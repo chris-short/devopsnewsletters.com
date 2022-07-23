@@ -5,5 +5,5 @@
   X-Content-Type-Options: nosniff
   Permissions-Policy: fullscreen=(self https://devopsnewsletters.com), geolocation=(), camera=(), microphone=()
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  Access-Control-Allow-Origin: https://devopsnewsletters.com
+  Access-Control-Allow-Origin: *
   Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
