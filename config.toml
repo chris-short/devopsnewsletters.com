@@ -74,6 +74,11 @@ languagecode = "en"
     weight = 8
     url = "https://o11y.news/"
 [[params.sites]]
+    name = "DevOps Dispatch"
+    description = "Weekly DevOps and Cloud Industry News, Memes and technical info for Cloud rofessionals."
+    weight = 50
+    url = "https://devopsdispatch.com"
+[[params.sites]]
     name = "The New Stack"
     description = "A digest of the week's most important stories & analyses about the services and infrastructures that developers build and the cultural impact that has on the way we work and live."
     weight = 100
