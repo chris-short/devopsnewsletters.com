@@ -110,9 +110,9 @@ languagecode = "en"
     url = "https://www.getrevue.co/profile/jaydestro?via=twitter-profile-webview"
 [[params.sites]]
     name = "DevOps README"
-    description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.xyz"
+    description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.com"
     weight = 997
-    url = "https://devopsreadme.xyz/"
+    url = "https://devopsreadme.com/"
 [[params.sites]]
     name = "Kubernetes README"
     description = "Looking for a great list of books 📚 covering Kubernetes? Look no futher than kubernetesreadme.com"
