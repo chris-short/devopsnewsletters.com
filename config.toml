@@ -109,6 +109,11 @@ languagecode = "en"
     weight = 121
     url = "https://www.getrevue.co/profile/jaydestro?via=twitter-profile-webview"
 [[params.sites]]
+    name = "DevOps Dispatch"
+    description = "Weekly DevOps and Cloud Industry News, Memes and technical info for Cloud professionals."
+    weight = 122
+    url = "https://devopsdispatch.com"
+[[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.com"
     weight = 997
@@ -123,3 +128,4 @@ languagecode = "en"
     description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
     weight = 999
     url = "https://kubenews.net/"
+ 
