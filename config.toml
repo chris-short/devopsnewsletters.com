@@ -40,29 +40,29 @@ languagecode = "en"
     url = "https://www.devopsweekly.com/"
 [[params.sites]]
     name = "DevOps'ish"
-    description = "DevOps, Cloud Native, Hybrid Cloud, Open Source, industry news, culture, and the ‘ish between."
+    description = "Cloud Native, DevOps, GitOps, Open Source, industry news, culture, and the ‘ish between."
     weight = 2
     url = "https://devopsish.com/"
 [[params.sites]]
-    name = "EKS News"
-    description = "EKS News aims to be to go to newsletter for all things AWS EKS, adjacent AWS services, Kubernetes, and Cloud Native"
-    weight = 3
-    url = "https://eks.news/"
-[[params.sites]]
     name = "KubeWeekly"
-    description = "The weekly newsletters for all things Kubernetes."
-    weight = 4
+    description = "The weekly newsletter for all things Kubernetes and beyond."
+    weight = 3
     url = "https://kubeweekly.io/"
 [[params.sites]]
     name = "Last Week in AWS"
-    description = "A weekly roundup of news from Amazon's cloud ecosystem — sprinkled with snark."
-    weight = 5
+    description = "Keeping up with AWS announcements is like drinking from a firehose"
+    weight = 4
     url = "https://ref.lastweekinaws.com/7h1z3x"
+[[params.sites]]
+    name = "EKS News"
+    description = "The latest and greatest on all things AWS Elastic Kubernetes Service, Kubernetes, and Cloud Native."
+    weight = 5
+    url = "https://eks.news/"
 [[params.sites]]
     name = "Protocol Source Code"
     description = "You're busy. Let us help you. What matters in tech, in your inbox every morning."
     weight = 6
-    url = "https://sparklp.co/41a41889"
+    url = "https://www.protocol.com/newsletters/"
 [[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
@@ -75,9 +75,9 @@ languagecode = "en"
     url = "https://o11y.news/"
 [[params.sites]]
     name = "The New Stack"
-    description = "A digest of the week's most important stories & analyses about the services and infrastructures that developers build and the cultural impact that has on the way we work and live."
+    description = "Get the latest news and trends in app development and management at scale with The New Stack's weekly newsletter, delivered to your inbox each Friday."
     weight = 100
-    url = "https://thenewstack.io/newsletter-archive"
+    url = "https://thenewstack.io/newsletter/"
 [[params.sites]]
     name = "Infrastructure as a Newsletter"
     description = "Get Digital Ocean's roundup of sysadmin tutorials and open source happenings delivered to your inbox once you sign up and again every two weeks."
@@ -85,7 +85,7 @@ languagecode = "en"
     url = "https://www.digitalocean.com/community/newsletter"
 [[params.sites]]
     name = "Resilience Roundup"
-    description = "Each week I'll take you along on my journey as I scour the internet to learn more about resilience, whether that is in systems, technology, or people."
+    description = "Resilience engineering for software people"
     weight = 102
     url = "https://resilienceroundup.com/"
 [[params.sites]]
@@ -103,11 +103,6 @@ languagecode = "en"
     description = "Weekly newsletter for developers and operators that contains 1 GIF, 2 comments, and 3 links with useful articles, tools, and services."
     weight = 120
     url = "https://123dev.email"
-[[params.sites]]
-    name = "Top Stories from the Microsoft DevOps Community"
-    description = "Every Friday get an update on posts from around the Microsoft DevOps community."
-    weight = 121
-    url = "https://www.getrevue.co/profile/jaydestro?via=twitter-profile-webview"
 [[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.com"
