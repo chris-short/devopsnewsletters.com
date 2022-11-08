@@ -44,10 +44,15 @@ languagecode = "en"
     weight = 2
     url = "https://devopsish.com/"
 [[params.sites]]
+    name = "Let's Get To The News"
+    description = "A weekly news roundup from Craig Box, the former co-host and co-founder of the Kubernetes Podcast."
+    weight = 2
+    url = "https://craigbox.substack.com/"
+[[params.sites]]
     name = "KubeWeekly"
     description = "The weekly newsletter for all things Kubernetes and beyond."
     weight = 3
-    url = "https://kubeweekly.io/"
+    url = "https://www.cncf.io/kubeweekly/"
 [[params.sites]]
     name = "Last Week in AWS"
     description = "Keeping up with AWS announcements is like drinking from a firehose"
