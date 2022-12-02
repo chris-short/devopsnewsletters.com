@@ -104,6 +104,11 @@ languagecode = "en"
     weight = 120
     url = "https://123dev.email"
 [[params.sites]]
+    name = "Learn Kubernetes weekly"
+    description = "Curated articles, tutorials, projects and events with a focus on Kubernetes."
+    weight = 140
+    url = "https://learnk8s.io/learn-kubernetes-weekly"
+[[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.com"
     weight = 997
