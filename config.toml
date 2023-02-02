@@ -118,3 +118,8 @@ languagecode = "en"
     description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
     weight = 999
     url = "https://kubenews.net/"
+[[params.sites]]
+    name = "Linux Stans Newsletter"
+    description = "For all the DevOps engineers that use Linux. Interesting and unique content from around the web related to Linux - news, roundups, tutorials, videos, memes, and more."
+    weight = 1000
+    url = "https://linuxstans.com/newsletter/"
