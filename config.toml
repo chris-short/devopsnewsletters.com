@@ -118,3 +118,13 @@ languagecode = "en"
     description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
     weight = 999
     url = "https://kubenews.net/"
+[[params.sites]]
+    name = "Uptime"
+    description = "Byte-sized content about DevOps, Kubernetes and other cloud-native tech"
+    weight = 1000
+    url = "https://uptime.build"
+[[params.sites]]
+    name = "DevOps Bulletin"
+    description = "From AWS, Terraform, and Kubernetes to CI/CD pipelines and cloud-native architecture, we've got you covered!"
+    weight = 1001
+    url = "https://www.devopsbulletin.com/"
