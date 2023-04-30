@@ -104,6 +104,11 @@ languagecode = "en"
     weight = 120
     url = "https://123dev.email"
 [[params.sites]]
+    name = "Upcoming Kubernetes Events"
+    description = "Curated meetups, conferences, training and webinars on Kubernetes."
+    weight = 130
+    url = "https://kube.events/newsletter"
+[[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.com"
     weight = 997
@@ -118,3 +123,4 @@ languagecode = "en"
     description = "Looking for a list of newsletters like this related to Kubernetes? I've got you covered."
     weight = 999
     url = "https://kubenews.net/"
+
