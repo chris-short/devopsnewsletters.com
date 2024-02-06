@@ -1,7 +1,5 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/ChrisShort?style=social)
-![GitHub followers](https://img.shields.io/github/followers/chris-short?style=social)
-![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devopsish?style=social)
-![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fdevopsnewsletters.com)
+![GitHub followers](https://img.shields.io/github/followers/chris-short)
 ![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/devopsnewsletters.com?publish)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fdevopsnewsletters.com)
 
