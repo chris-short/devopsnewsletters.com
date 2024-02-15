@@ -109,6 +109,11 @@ languagecode = "en"
     weight = 130
     url = "https://kube.events/newsletter"
 [[params.sites]]
+    name = "Reload in 10"
+    description = "Join other Packet Plumbers opening a weekly fresh packet of NetDevOps news in less time than it takes to reload a router"
+    weight = 131
+    url = "https://reloadin.net"
+[[params.sites]]
     name = "DevOps README"
     description = "Looking for a great list of books 📚 covering DevOps, DevSecOps, and all the other wonderful facets of software creation and operation? Look no futher than devopsreadme.com"
     weight = 997
