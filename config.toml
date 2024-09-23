@@ -59,11 +59,6 @@ languagecode = "en"
     weight = 5
     url = "https://eks.news/"
 [[params.sites]]
-    name = "Protocol Source Code"
-    description = "You're busy. Let us help you. What matters in tech, in your inbox every morning."
-    weight = 6
-    url = "https://www.protocol.com/newsletters/"
-[[params.sites]]
     name = "SRE Weekly"
     description = "A newsletter devoted to everything related to keeping a site or service available as consistently as possible."
     weight = 7
